@@ -7,66 +7,54 @@ body {
     background-size: cover;
   }
   
-  .main{
+.main{
     margin-top: 50px;
-  }
+}
   
-  
-  .title-box{
-    margin-top: 20%;
-  
-    .title{
-      color: white;
-      text-shadow: 2px 0px 2px #000000;
-    }
-  
-    .subtitle{
-      color: white;
-      text-shadow: 3px 0px 3px #000000;
-      font-size: 30px;
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  }
-  
-   
-  .exchange_box{
-    margin: 10px auto;
-    .logo-box{
-      margin: 0 auto;
-      padding-bottom: 10px;
-    }
-  }
+.title-box {
+  margin-top: 20%;
+}
+.title-box .title {
+  color: white;
+  text-shadow: 2px 0px 2px #000;
+}
+.title-box .subtitle {
+  color: white;
+  text-shadow: 3px 0px 3px #000;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.exchange_box {
+  margin: 10px auto;
+}
+.exchange_box .logo-box {
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.exchange_box .card {
+  border: 0;
+}
+.exchange_box .card .card-header {
+  background-color: #878d99;
+  border-radius: 0;
+  color: white;
+  font-weight: 700;
+}
+.exchange_box .card .card-block {
+  padding-top: 10px;
+  padding: 20px;
+}
+.exchange_box .card .card-block .title {
+  color: #878d99;
+  font-weight: 700;
+}
+.exchange_box .card .card-block .btn-exchange {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+  border-radius: 0;
+}
 
-  .exchange_box{
-
-    .card{
-      border: 0;
-  
-      .card-header{
-        background-color: #878d99;
-        border-radius: 0;
-        color: white;
-        font-weight: 700;
-      }
-  
-      .card-block{
-        padding-top: 10px;
-        padding: 20px;
-  
-        .title{
-          color: #878d99;
-          font-weight: 700;
-        }
-  
-        .btn-exchange{
-          background-color: #5bc0de;
-          border-color: #5bc0de;
-          border-radius: 0;
-        }
-      }
-    }
-  }
   
   @media only screen and (max-width : 992px) {
     .card-header {
@@ -77,20 +65,17 @@ body {
       margin-top: 30px;
       font-size: 20px;
     }
-      
-    .form-group {
-      select {
+    
+    .form-group select {
         font-size: 20px;
         height: 50px !important;
-      }
-  
-      input {
+    }
+
+    .form-group input {
         font-size: 20px;
         height: 50px;
-      }
     }
-  
-  
+    
     #result {
       margin-bottom: 20px;
     }
